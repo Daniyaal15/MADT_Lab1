@@ -28,4 +28,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="181dp" />
 
+    <Button
+        android:id="@+id/buttonNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ButtonTap"
+        android:text="Tap me TOO!!!!!"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="308dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,6 +2,7 @@ package com.example.madtlab1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -18,5 +19,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void BtnClk(View view) {
         this.TxtViewId.setText("Text Changed :D");
+        
+    }
+    public void ButtonTap(View view){
+        this.TxtViewId.setTextColor(Color.BLUE);
     }
 }
